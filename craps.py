@@ -9,7 +9,6 @@ away_choice = int(input("Choose your game: "))
 print(str(away_choice) + "'s away it is!")
 
 num_of_players = int(input("How many players in the game: "))
-busted = [False for i in range(num_of_players)]
 total = [0 for i in range(num_of_players)]
 the_number = 0
 for i in range(num_of_players):
